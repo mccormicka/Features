@@ -1,5 +1,5 @@
 Feature: Feature files on Github
 
   Scenario: Should load feature files from a remote host
-    When I run NodeJS with the command "--features http://"
+    When I run NodeJS with the command "--features https://raw.github.com/mccormicka/Features/master/sample.feature"
     Then The file is downloaded
